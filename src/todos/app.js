@@ -31,7 +31,6 @@ export const App = (elementId) => {
   // Referencias HTML
   const newDescriptionInput = document.querySelector(elementIDs.NewTodoInput);
   const todoListUL = document.querySelector(elementIDs.TodoList);
-  const destroyTodo = document.querySelectorAll(elementIDs.DestroyTodo);
 
   // Listener
   newDescriptionInput.addEventListener('keyup', (event) => {
